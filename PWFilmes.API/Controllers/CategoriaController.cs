@@ -29,6 +29,18 @@ namespace PWFilmes.API.Controllers
                 Descricao = "Comédia",
                 Cor = "Azul"
             });
+            categorias.Add(new Categoria
+            {
+                Codigo = 3,
+                Descricao = "Suspense",
+                Cor = "Amarelho"
+            });
+            categorias.Add(new Categoria
+            {
+                Codigo = 4,
+                Descricao = "Ação",
+                Cor = "Verde"
+            });
             return Ok(categorias);
         }
     }
